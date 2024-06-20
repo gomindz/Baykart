@@ -1,0 +1,107 @@
+name: agri_tech
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.1.1
+  smooth_page_indicator:
+  get: ^4.6.5
+  visibility_detector: ^0.3.3
+  pinput: ^2.2.21
+  http: ^0.13.4
+  shared_preferences: ^2.0.15
+  provider: ^6.0.3
+  drop_down_list: ^0.0.4
+  url_launcher: ^6.1.10
+  intl: ^0.18.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.6.1
+  audioplayers: ^3.0.1
+  just_audio: ^0.9.32
+  animated_bottom_navigation_bar: ^1.3.3
+  font_awesome_flutter: ^10.7.0
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+  generate: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-Regular.ttf
+        - asset: fonts/Poppins/Poppins-Light.ttf
+        - asset: fonts/Poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato/Lato-Regular.ttf
+        - asset: fonts/Lato/Lato-Italic.ttf
+          style: italic
+        - asset: fonts/Lato/Lato-Bold.ttf
+          weight: 700
+    - family: Laila
+      fonts:
+        - asset: fonts/Laila/Laila-Medium.ttf
+        - asset: fonts/Laila/Laila-Light.ttf
+        - asset: fonts/Laila/Laila-Regular.ttf
+        - asset: fonts/Laila/Laila-SemiBold.ttf
+        - asset: fonts/Laila/Laila-Bold.ttf
+          weight: 700
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/otp.png
+    - assets/how-to.png
+    - assets/sell.png
+    - assets/farm.png
+    - assets/cloud.png
+    - assets/woman-phone.jpg
+    - assets/abuse.jpg
+    - assets/pregnant.jpg
+    - assets/avatar.jpg
+    - assets/gamjobs.jpg
+    - assets/walking.png
+    - assets/fill.png
+    - assets/bg.png
+    - assets/phone.png
+    - assets/submit.png
+    - assets/relax.png
+    - assets/intro.mp4
+    - assets/facebook.png
+    - assets/clinical-training.jpeg
+    - assets/legal-support.jpeg
+    - assets/one-stop-center.jpg
+    - assets/medical-bill-support.jpeg
+    - assets/support-group.JPG
+    - assets/support-team.webp
